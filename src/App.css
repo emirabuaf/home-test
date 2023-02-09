@@ -1,0 +1,51 @@
+.App {
+	padding: 20px;
+	text-align: center;
+}
+
+.movie-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.movie {
+	width: 250px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: pink;
+	cursor: pointer;
+}
+
+.movie:hover {
+	border: 3px solid red;
+}
+
+
+.selected-movies {
+	display: flex;
+
+	justify-content: center;
+}
+
+.selected-movies>p {
+	width: 15%;
+}
+
+.similarity-check {
+	width: 50%;
+}
+
+button {
+	background: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 15px;
+	cursor: pointer;
+}
